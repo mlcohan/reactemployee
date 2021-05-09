@@ -1,7 +1,13 @@
 import React from "react";
+import "./style.css";
 
-function Container(props) {
-  return <div className="container" style={props.style}>{props.children}</div>;
+function Header () {
+    return (
+        <div className="header">
+            <h1>Employee Directory</h1>
+            <p>Click on each heading to filter or use the search box to narrow your results</p>
+        </div>
+    )
 }
 
-export default Container;
+export default Header;
