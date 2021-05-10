@@ -1,9 +1,8 @@
-form.search {
-  overflow: auto;
-  margin-bottom: 10px;
+.searchbox button {
+  border: 1px solid #101D42;
 }
 
-form.search button[type="submit"] {
-  float: right;
-  margin-top: 10px;
+.searchbox button:hover {
+  background-color: #101D42;
+  color: #ffffff;
 }
